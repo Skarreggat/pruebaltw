@@ -16,11 +16,11 @@
         <div class="row">
             <div class="col">
                 <label for="nom">Nom</label>
-                <input class="form-control" type="text" name="nom" required="required" value="{{ isset($cliente->nom) ? $cliente->nom : '' }}" required="required" pattern="[a-zA-Z]+" />
+                <input class="form-control" type="text" name="nom" required="required" value="{{ isset($cliente->nom) ? $cliente->nom : '' }}" required="required" pattern="[a-zA-Z ]+" />
             </div>
             <div class="col">
                 <label for="cognoms">Cognoms</label>
-                <input class="form-control" type="text" name="cognoms" required="required" value="{{ isset($cliente->cognoms) ? $cliente->cognoms : '' }}" required="required" pattern="[a-zA-Z]+" />
+                <input class="form-control" type="text" name="cognoms" required="required" value="{{ isset($cliente->cognoms) ? $cliente->cognoms : '' }}" required="required" pattern="[a-zA-Z ]+" />
             </div>
         </div>
         <br/>

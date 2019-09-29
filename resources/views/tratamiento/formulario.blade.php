@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col">
                 <label for="nom_tractament">Nom</label>
-                <input class="form-control" type="text" name="nom_tractament" value="{{ isset($tratamiento->nom_tractament) ? $tratamiento->nom_tractament : '' }}" required="required" pattern="[a-zA-Z]+" />
+                <input class="form-control" type="text" name="nom_tractament" value="{{ isset($tratamiento->nom_tractament) ? $tratamiento->nom_tractament : '' }}" required="required" pattern="[a-zA-Z ]+" />
             </div>
             
         </div>
