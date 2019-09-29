@@ -25,3 +25,17 @@ Composer 1.9.0
     - php artisan db:seed --class=Clients_tractamentsTableSeeder
 
 --- Ja es pot accedir al projecte amb: http://localhost/pruebaltw-master/public/
+
+
+• Quines fonts d’informació acostumes a consultar en cas de dubtes?
+- Curs de php/Laravel/Symfony que tinc d'Udemy
+- Stackoverflow
+- PHP.net
+- w3Schools
+• Has utilitzat paquets de tercers per tal d’ampliar funcionalitats de Laravel? Quins i
+per a què?
+- Si, he utilitzat plantilles d'estils, i paquets de jeremy kennedy per no haver de fer-ho manualment com:
+    - Laravel-logger
+    - Laravel-roles
+    - Laravel-users
+    
